@@ -1,0 +1,30 @@
+
+<!-- form--><a href="form"></a>
+<div class="order">
+  <div class="container">
+    <div class="order__content">
+      <div class="form"> 
+        <form class="form-order">                                        
+          <!-- hidden part-->
+          <input type="hidden" name="project_name" value="ARC"/>
+          <input type="hidden" name="admin_email" value="zharkeev.post@gmail.com"/>
+          <input type="hidden" name="form_subject" value="Order"/>
+          <div class="order__inner">
+            <!-- client part-->
+            <input type="text" name="Name" placeholder="Ваше Имя..." required="required"/>
+            <input type="text" name="E-mail" placeholder="E-mail..." required="required"/>
+            <input type="text" name="Phone" placeholder="Ваш номер телефона..."/>
+            <select name="project type"> 
+              <option name="Выберите тип проекта" selected="selected">Выберите тип проекта</option>
+              <option name="inner">ДИЗАЙН ЖИЛЫХ ИНТЕРЬЕРОВ</option>
+              <option name="comercial">ДИЗАЙН КОММЕРЧЕСКИХ ИНТЕРЬЕРОВ</option>
+              <option name="arcit">АРХИТЕКТУРА ЖИЛЫХ ЗДАНИЙ</option>
+            </select>
+          </div>
+          <textarea class="comments" name="comments" cols="30" rows="50" placeholder="Укажите дополнительную информацию..."></textarea>
+          <button class="btn">Отправить </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
