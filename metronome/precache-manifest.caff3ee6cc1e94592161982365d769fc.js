@@ -24,27 +24,35 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/browserconfig.xml"
   },
   {
-    "revision": "28a2f60823fffabbc210",
-    "url": "/metronome/css/app.08d5dc09.css"
+    "revision": "ff5a43bd9e162886f18b",
+    "url": "/metronome/css/app.d39d7070.css"
+  },
+  {
+    "revision": "4b93bbfabe8c5a1426c2a8e6abf3bf68",
+    "url": "/metronome/favicon-16x16.png"
+  },
+  {
+    "revision": "f3a438f9b7867b0831eebebf2ce916e1",
+    "url": "/metronome/favicon-32x32.png"
   },
   {
     "revision": "61292a821188deb000c515d2a41353b9",
     "url": "/metronome/img/volume.61292a82.png"
   },
   {
-    "revision": "f99bf16520d40cba5ef016c59f253fbf",
+    "revision": "78662a003889e473c767f7aac164c082",
     "url": "/metronome/index.html"
   },
   {
-    "revision": "28a2f60823fffabbc210",
-    "url": "/metronome/js/app.b8bfa765.js"
+    "revision": "ff5a43bd9e162886f18b",
+    "url": "/metronome/js/app.31ea1327.js"
   },
   {
     "revision": "aa57879e81ec1ae1b1b2",
     "url": "/metronome/js/chunk-vendors.b82c2a6c.js"
   },
   {
-    "revision": "87b6ca40e1382e886411ab77ba2fccc6",
+    "revision": "2deff91dd9571ed9e967319a077efebe",
     "url": "/metronome/manifest.json"
   },
   {
