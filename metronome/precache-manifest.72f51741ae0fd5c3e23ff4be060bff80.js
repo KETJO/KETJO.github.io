@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/js/chunk-vendors.b82c2a6c.js"
   },
   {
-    "revision": "786b84ac3ceb9335aa15bde39898dee9",
+    "revision": "4a420e6a5fc5fbd2952b203f1366448c",
     "url": "/metronome/manifest.json"
   },
   {
