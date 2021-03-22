@@ -17,7 +17,7 @@ importScripts(
   "/metronome/precache-manifest.049d1614e8091c33ff89d25b2778f1bf.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "metronome2"});
+workbox.core.setCacheNameDetails({prefix: "metronome"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
