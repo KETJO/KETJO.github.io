@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/browserconfig.xml"
   },
   {
-    "revision": "a8be8a10aa1a305dfdac",
-    "url": "/metronome/css/app.598f6fcb.css"
+    "revision": "b05cf185f88eaada1cec",
+    "url": "/metronome/css/app.406093e9.css"
   },
   {
     "revision": "4b93bbfabe8c5a1426c2a8e6abf3bf68",
@@ -40,36 +40,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/img/volume.61292a82.png"
   },
   {
-    "revision": "200760942419d22aaf80e19399a5e9db",
+    "revision": "d23439dcfa0ac0e28806c9fc3ec0be55",
     "url": "/metronome/index.html"
   },
   {
-    "revision": "a8be8a10aa1a305dfdac",
-    "url": "/metronome/js/app.88d73a70.js"
+    "revision": "b05cf185f88eaada1cec",
+    "url": "/metronome/js/app.ba467708.js"
   },
   {
-    "revision": "aa57879e81ec1ae1b1b2",
-    "url": "/metronome/js/chunk-vendors.b82c2a6c.js"
+    "revision": "e3136ee5ed050709f7dc",
+    "url": "/metronome/js/chunk-vendors.c7ebd2b3.js"
   },
   {
     "revision": "4a420e6a5fc5fbd2952b203f1366448c",
     "url": "/metronome/manifest.json"
-  },
-  {
-    "revision": "efa417a3da16fb8d8a68d9f253755a94",
-    "url": "/metronome/media/sounds/cahon/0.mp3"
-  },
-  {
-    "revision": "23907c1927ffffb9d07dd7b80da2f0d1",
-    "url": "/metronome/media/sounds/cahon/1.mp3"
-  },
-  {
-    "revision": "9ef280b7ef542640b14cdbfe46f799ab",
-    "url": "/metronome/media/sounds/cowbell/0.mp3"
-  },
-  {
-    "revision": "f5e09de16fe21cdbf0642afbec893b71",
-    "url": "/metronome/media/sounds/cowbell/1.mp3"
   },
   {
     "revision": "3d0c930376516018157f08486a9f8969",
@@ -80,12 +64,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/media/sounds/hi-hat/1.mp3"
   },
   {
+    "revision": "ee52eca3152629b41118f3388c0e0c6b",
+    "url": "/metronome/media/sounds/hi-hat2/0.mp3"
+  },
+  {
+    "revision": "e7574425e7f31ea56b0364239fcd9cae",
+    "url": "/metronome/media/sounds/hi-hat2/1.mp3"
+  },
+  {
     "revision": "5fcf36795c3773b89dc5722c42414c91",
     "url": "/metronome/media/sounds/rim-shot/0.mp3"
   },
   {
     "revision": "efd1ebe0126bb4f7b6c2dc085ac4b492",
     "url": "/metronome/media/sounds/rim-shot/1.mp3"
+  },
+  {
+    "revision": "879a0291b3739ddcb3bb8892de52802a",
+    "url": "/metronome/media/sounds/rim-shot2/0.mp3"
+  },
+  {
+    "revision": "b4d976f3220abf5f336999bcb518babf",
+    "url": "/metronome/media/sounds/rim-shot2/1.mp3"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
