@@ -12,13 +12,13 @@ const assetsUrls = [
 	// "/metronome/browserconfig.xml",
 	// "/metronome/manifest.json",
 	// "/metronome/index.html",
-	// "/metronome/js/app.js",
-	// "/metronome/js/app.js.map",
-	// "/metronome/js/chunk-vendors.js",
-	// "/metronome/js/chunk-vendors.js.map",
-	// "/metronome/css/app.css",
-	// "/metronome/css/app.css.map",
-	// "/metronome/img/volume.png",
+	"/metronome/js/app.js",
+	"/metronome/js/app.js.map",
+	"/metronome/js/chunk-vendors.js",
+	"/metronome/js/chunk-vendors.js.map",
+	"/metronome/css/app.css",
+	"/metronome/css/app.css.map",
+	"/metronome/img/volume.png",
 ]
 self.addEventListener('install', async event=>{
 	console.log('sw install');
