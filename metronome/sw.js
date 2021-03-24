@@ -31,7 +31,7 @@ self.addEventListener('activate', event=>{
 })
 
 self.addEventListener('fetch', async event=>{
-	//console.log('fetch', event.request);
+	console.log('fetch', event.request);
 	event.respondWith(cacheFirst(event.request));
 })
 
