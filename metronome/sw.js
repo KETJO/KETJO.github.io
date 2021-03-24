@@ -1,6 +1,6 @@
 const staticCacheName= 's-app-v1'
 const assetsUrls = [
-	"/favicon.ico",
+	// "/metronome/favicon.ico",
 	"/metronome/media/sounds/hi-hat/0.mp3",
 	"/metronome/media/sounds/hi-hat/1.mp3",
 	"/metronome/media/sounds/hi-hat2/0.mp3",
@@ -9,16 +9,16 @@ const assetsUrls = [
 	"/metronome/media/sounds/rim-shot/1.mp3",
 	"/metronome/media/sounds/rim-shot2/0.mp3",
 	"/metronome/media/sounds/rim-shot2/1.mp3",
-	"/metronome/browserconfig.xml",
-	"/metronome/manifest.json",
-	"/metronome/index.html",
-	"/metronome/js/app.js",
-	"/metronome/js/app.js.map",
-	"/metronome/js/chunk-vendors.js",
-	"/metronome/js/chunk-vendors.js.map",
-	"/metronome/css/app.css",
-	"/metronome/css/app.css.map",
-	"/metronome/img/volume.png",
+	// "/metronome/browserconfig.xml",
+	// "/metronome/manifest.json",
+	// "/metronome/index.html",
+	// "/metronome/js/app.js",
+	// "/metronome/js/app.js.map",
+	// "/metronome/js/chunk-vendors.js",
+	// "/metronome/js/chunk-vendors.js.map",
+	// "/metronome/css/app.css",
+	// "/metronome/css/app.css.map",
+	// "/metronome/img/volume.png",
 ]
 self.addEventListener('install', async event=>{
 	console.log('sw install');
@@ -32,7 +32,7 @@ self.addEventListener('activate', event=>{
 })
 
 self.addEventListener('fetch', async event=>{
-	if('fetch', event.request.url != "https://ketjo.github.io/metronome/") event.respondWith(cacheFirst(event.request));
+	if(event.request.url != "https://ketjo.github.io/metronome/") event.respondWith(cacheFirst(event.request));
 })
 
 async function cacheFirst(request){
