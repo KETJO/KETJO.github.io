@@ -1,6 +1,6 @@
 const staticCacheName= 's-app-v1'
 const assetsUrls = [
-	"/favicon.ico",
+	// "/favicon.ico",
 	"/metronome/media/sounds/hi-hat/0.mp3",
 	"/metronome/media/sounds/hi-hat/1.mp3",
 	"/metronome/media/sounds/hi-hat2/0.mp3",
@@ -27,11 +27,12 @@ self.addEventListener('install', async event=>{
 })
 
 self.addEventListener('activate', event=>{
+	console.log(event);
 	console.log('sw activate');
 })
 
 self.addEventListener('fetch', async event=>{
-	console.log('fetch', event.request);
+	console.log('fetch', event.request.url);
 	event.respondWith(cacheFirst(event.request));
 })
 
