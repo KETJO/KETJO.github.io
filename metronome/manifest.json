@@ -5,7 +5,7 @@
 	"background_color": "#212529",
 	"display": "standalone",
 	"orientation": "portrait",
-	"start_url": ".",
+	"start_url": "/index.html",
 	"icons": [
 		{
 			"src": "/metronome/favicon-16x16.png",

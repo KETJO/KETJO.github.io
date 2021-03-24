@@ -28,9 +28,10 @@ self.addEventListener('install', async event=>{
 	await cache.addAll(assetsUrls)
 })
 
-self.addEventListener('activate', event=>{
-	console.log(event);
+self.addEventListener('activate', async event=>{
 	console.log('sw activate');
+	const cacheNames = await caches.keys();
+	await Promise.all(cacheNames.filter(name=>name !== staticCacheName).map(name=>caches.delete(name)))
 })
 
 self.addEventListener('fetch', async event=>{
