@@ -1,6 +1,11 @@
 const staticCacheName= 's-app-v1'
 const assetsUrls = [
 	// "/metronome/favicon.ico",
+	// "/metronome/browserconfig.xml",
+
+	"/metronome/manifest.json",
+	"/metronome/index.html",
+
 	"/metronome/media/sounds/hi-hat/0.mp3",
 	"/metronome/media/sounds/hi-hat/1.mp3",
 	"/metronome/media/sounds/hi-hat2/0.mp3",
@@ -9,9 +14,6 @@ const assetsUrls = [
 	"/metronome/media/sounds/rim-shot/1.mp3",
 	"/metronome/media/sounds/rim-shot2/0.mp3",
 	"/metronome/media/sounds/rim-shot2/1.mp3",
-	// "/metronome/browserconfig.xml",
-	// "/metronome/manifest.json",
-	// "/metronome/index.html",
 	"/metronome/js/app.js",
 	"/metronome/js/app.js.map",
 	"/metronome/js/chunk-vendors.js",
