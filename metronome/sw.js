@@ -1,6 +1,6 @@
 const staticCacheName= 's-app-v1'
 const assetsUrls = [
-	// "/favicon.ico",
+	"/favicon.ico",
 	"/metronome/media/sounds/hi-hat/0.mp3",
 	"/metronome/media/sounds/hi-hat/1.mp3",
 	"/metronome/media/sounds/hi-hat2/0.mp3",
@@ -32,8 +32,7 @@ self.addEventListener('activate', event=>{
 })
 
 self.addEventListener('fetch', async event=>{
-	console.log('fetch', event.request.url);
-	event.respondWith(cacheFirst(event.request));
+	if('fetch', event.request.url != "https://ketjo.github.io/metronome/") event.respondWith(cacheFirst(event.request));
 })
 
 async function cacheFirst(request){
