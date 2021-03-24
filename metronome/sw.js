@@ -3,7 +3,7 @@ const assetsUrls = [
 	"/metronome/favicon.ico",
 	"/metronome/browserconfig.xml",
 
-	"/metronome/manifest.json",
+	"/metronome/manifest.webmanifest",
 	"/metronome/index.html",
 
 	"/metronome/media/sounds/hi-hat/0.mp3",
