@@ -35,7 +35,7 @@ self.addEventListener('activate', async event=>{
 })
 
 self.addEventListener('fetch', async event=>{
-	if(event.request.url != "https://ketjo.github.io/metronome/") event.respondWith(cacheFirst(event.request));
+	event.respondWith(cacheFirst(event.request));
 })
 
 async function cacheFirst(request){
