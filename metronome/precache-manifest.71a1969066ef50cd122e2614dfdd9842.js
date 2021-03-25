@@ -1,6 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa39a5518b902021d875",
+    "revision": "7088cf067466e587fde2ae36424ca47a",
+    "url": "/metronome/.htaccess"
+  },
+  {
+    "revision": "7ff217e91352b1648a96",
     "url": "/metronome/css/app.css"
   },
   {
@@ -8,11 +12,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/img/volume.png"
   },
   {
-    "revision": "5facac8b3864618fff8568c85d90671d",
+    "revision": "4b8ae7760d8a68cf6b8dbc2f81e4cf48",
     "url": "/metronome/index.html"
   },
   {
-    "revision": "aa39a5518b902021d875",
+    "revision": "7ff217e91352b1648a96",
     "url": "/metronome/js/app.js"
   },
   {
@@ -20,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/js/chunk-vendors.js"
   },
   {
-    "revision": "85b736adba1719fc06f2abddc863e033",
+    "revision": "a256584651417446fa7d030308ce64b5",
     "url": "/metronome/manifest.json"
   },
   {
