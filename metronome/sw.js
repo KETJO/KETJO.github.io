@@ -1,5 +1,6 @@
 const staticCacheName= 's-app-v1'
 const assetsUrls = [
+	'/',
 	"/metronome/favicon.ico",
 	"/metronome/browserconfig.xml",
 
