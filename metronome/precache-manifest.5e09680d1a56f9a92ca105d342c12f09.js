@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/.htaccess"
   },
   {
-    "revision": "a8130b2fbc62803cb7d7",
+    "revision": "0ca07439801396ce213c",
     "url": "/metronome/css/app.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/index.html"
   },
   {
-    "revision": "a8130b2fbc62803cb7d7",
+    "revision": "0ca07439801396ce213c",
     "url": "/metronome/js/app.js"
   },
   {
