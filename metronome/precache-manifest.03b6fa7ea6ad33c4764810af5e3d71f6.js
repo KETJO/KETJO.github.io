@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/audioworker.js"
   },
   {
-    "revision": "63ba430f77f721165642",
+    "revision": "52fb630c318ad8f5ec5b",
     "url": "/metronome/css/app.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/index.html"
   },
   {
-    "revision": "63ba430f77f721165642",
+    "revision": "52fb630c318ad8f5ec5b",
     "url": "/metronome/js/app.js"
   },
   {
