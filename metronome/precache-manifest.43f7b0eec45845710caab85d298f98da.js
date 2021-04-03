@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/audioworker.js"
   },
   {
-    "revision": "e8c4401b71043f98210d",
+    "revision": "72dd6bb6590ca52f0f8a",
     "url": "/metronome/css/app.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/index.html"
   },
   {
-    "revision": "e8c4401b71043f98210d",
+    "revision": "72dd6bb6590ca52f0f8a",
     "url": "/metronome/js/app.js"
   },
   {
@@ -44,11 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metronome/manifest.json"
   },
   {
-    "revision": "5fcf36795c3773b89dc5722c42414c91",
+    "revision": "887cb5ea540255a9ff2a3ae0e46e0afc",
     "url": "/metronome/media/sounds/click/0.mp3"
   },
   {
-    "revision": "efd1ebe0126bb4f7b6c2dc085ac4b492",
+    "revision": "5b1810659281cb8ba0c45c14735e014a",
     "url": "/metronome/media/sounds/click/1.mp3"
   },
   {
