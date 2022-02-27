@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/remetronome/precache-manifest.167ecf34de58311daae1015e974cc803.js"
+  "precache-manifest.cd470dd49b3df715013850e93d214fec.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "Remetronome"});
